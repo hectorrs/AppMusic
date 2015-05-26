@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JHMusic</string>
+    <string name="cancion">Nombre canción: </string>
+    <string name="album">Nombre álbum: </string>
+    <string name="artista">Nombre artista: </string>
+    <string name="canciones">Canciones: </string>
+    <string name="genero">Género: </string>
+    <string name="botonAceptar">Añadir </string>
+    <string name="botonParar">Parar servicio </string>
+    <string name="action_settings">Añadir</string>
+    <string name="action_settings2">Canción</string>
+    <string name="action_settings3">Álbum</string>
+    <string name="action_settings4">Artista</string>
+    <string name="action_settings5">Ir a Spotify</string>
+    <string name="action_settings6">Home</string>
+    <string name="txtMsg">Servicio</string>
+    <string name="title_activity_listar_albumes">ListarAlbumes</string>
+    <string name="title_activity_listar_artistas">ListarArtistas</string>
+    <string name="title_activity_introducir_datos">IntroducirDatos</string>
+    <string name="title_activity_consultar_cancion">Consultar cancion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_consultar_album">Consultar album</string>
+    <string name="title_activity_consultar_artista">Consultar artista</string>
+    <string name="title_activity_efasdfasdf">MainActivity</string>
+    <string name="title_activity_introducir_cancion">IntroducirCancion</string>
+    <string name="title_activity_introducir_album">IntroducirAlbum</string>
+    <string name="title_activity_introducir_artista">IntroducirArtista</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="title_activity_servicio1">Servicio1</string>
+
+</resources>

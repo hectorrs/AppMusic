@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.uvigo.esei.dm1415.p08"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListarAlbumes"
+            android:label="@string/title_activity_listar_albumes" >
+        </activity>
+        <activity
+            android:name=".ListarArtistas"
+            android:label="@string/title_activity_listar_artistas" >
+        </activity>
+        <activity
+            android:name=".IntroducirDatos"
+            android:label="@string/title_activity_introducir_datos" >
+        </activity>
+        <activity
+            android:name=".ConsultarCancion"
+            android:label="@string/title_activity_consultar_cancion" >
+        </activity>
+        <activity
+            android:name=".ConsultarAlbum"
+            android:label="@string/title_activity_consultar_album" >
+        </activity>
+        <activity
+            android:name=".ConsultarArtista"
+            android:label="@string/title_activity_consultar_artista" >
+        </activity>
+        <activity
+            android:name=".EfasdfasdfActivity"
+            android:label="@string/title_activity_efasdfasdf" >
+        </activity>
+        <activity
+            android:name=".IntroducirCancion"
+            android:label="@string/title_activity_introducir_cancion" >
+        </activity>
+        <activity
+            android:name=".IntroducirAlbum"
+            android:label="@string/title_activity_introducir_album" >
+        </activity>
+        <activity
+            android:name=".IntroducirArtista"
+            android:label="@string/title_activity_introducir_artista" >
+        </activity>
+        <activity
+            android:name=".WebView1"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name=".MyServiceDriver3"
+            android:label="@string/title_activity_servicio1" >
+            <intent-filter>
+				 <action android:name="android.intent.action.MAIN" />
+				 <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+        </activity>
+        <service android:name="Servicio" >
+ 		</service>  
+    </application>
+
+</manifest>
